@@ -16,10 +16,10 @@ choice = questdlg('What do you want to track?', ...
 switch choice
     case 'Particles'
         % -----------------------------------------------------------------
-        % Call the script "Atomatico_cluster.m"
+        % Call the script "Automatico_cluster.m"
         % -----------------------------------------------------------------
        
-        run('Atomatico_cluster.m');
+        Automatico_cluster;
         
     case 'Vesicles'
         % -----------------------------------------------------------------
