@@ -19,7 +19,13 @@ fnamestring = char([]);
 dname       = char([]);
 
 % Specify the number of videos (image sequences) you want to analyze.
-nv = 1;  
+prompt = {'Enter number of videos to analyze:'};
+dlgtitle = 'Number of Videos';
+dims = [1 40];   
+definput = {'1'};  
+answer = inputdlg(prompt, dlgtitle, dims, definput);
+
+nv = str2double(answer{1}); 
 
 % ===================================================================
 % LOOP 1: Acquires input for each video sequence (folder of images) 
