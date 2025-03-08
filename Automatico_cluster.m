@@ -25,12 +25,6 @@ dims = [1 40];
 definput = {'1'};  
 answer = inputdlg(prompt, dlgtitle, dims, definput);
 
-prompt = {'Enter number of videos to analyze:'};
-dlgtitle = 'Number of Videos';
-dims = [1 40];   
-definput = {'1'};  
-answer = inputdlg(prompt, dlgtitle, dims, definput);
-
 nv = str2double(answer{1})
 
 % ===================================================================
