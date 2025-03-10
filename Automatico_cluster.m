@@ -205,12 +205,8 @@ for i = 1:nv
         % Call the external function "tracking_clust_auto" with the 
         % parameters selected earlier. Make sure that the function 
         % signature matches the arguments below, or adjust as necessary:
-        %    tracking_clust_auto(inVal, dtVal, ncycVal, fileStr, ...
+        %    tracking_clust_auto(inVal, dtVal, ntVal, fileStr, ...
         %                        dirName, thresholdVal, epsilonVal, mintsVal)
-        %
-        % NOTE: The variable ncyc(i) was referenced here but not 
-        %       defined in the script above. Make sure ncyc(i) is 
-        %       defined or remove it if not needed.
         % ----------------------------------------------------------------
         tracking_clust_auto( ...
             in(i), ...
